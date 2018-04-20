@@ -1,12 +1,6 @@
 import random
 import time
 import sys
-from operator import *
-from random import sample, randint
-from sys import argv
-from itertools import combinations
-import _pickle as pickle
-import winsound
 n=len
 wordFile = open('output.txt', 'r')
 matches = []
@@ -137,7 +131,7 @@ def countdown(t):
         time.sleep(1)
         t -= 1
     print('Times up!')
-window=Tk()
+
 while 1==1:
     print("What do you want to do?")
     print("(1) Number Round")
